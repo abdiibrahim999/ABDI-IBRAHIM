@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+    color: black;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-image: linear-gradient(to left,transparent 5%,#726a95);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hp-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.hp{
+    flex: 1 1 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    max-width: 300px;
+    transition: all 0.5s;
+}
+.hp img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+
+
+}
+.category{
+    text-align: center;
+    margin-top: 20px;
+    color:black
+}
+.apple-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.apple{
+    flex: 1 1 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    max-width: 300px;
+    transition: all 0.5s;
+}
+.apple img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.Dell-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.Dell{
+    flex: 1 1 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    max-width: 300px;
+    transition: all 0.5s;
+}
+.Dell img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(28,0,181,0.3);
+
+}
+    
